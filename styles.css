@@ -1,0 +1,10 @@
+#header-img {
+    width: 100px;
+}
+
+header {
+    display: flex;
+    font-family: sans-serif;
+    font-size: 50px;
+    align-items: center;
+}
