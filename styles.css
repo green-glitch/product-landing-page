@@ -1,10 +1,20 @@
-#header-img {
-    width: 100px;
+body{
+    font-family: sans-serif;
 }
 
 header {
     display: flex;
-    font-family: sans-serif;
-    font-size: 50px;
+}
+
+#header-img {
+    width: min(20vw, 90px/1.2);
+}
+
+header div#title {
+    display: flex;
     align-items: center;
+}
+
+header span {
+    font-size: min(20vw, 60px);
 }
