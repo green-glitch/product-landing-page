@@ -7,14 +7,32 @@ header {
 }
 
 #header-img {
-    width: min(20vw, 90px/1.2);
+    width: min(10vw, 100px);
 }
 
 header div#title {
     display: flex;
     align-items: center;
+    width: 70%;
 }
 
 header span {
-    font-size: min(20vw, 60px);
+    font-size: min(10vw, 100px);
+}
+
+nav {
+    padding-right: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 30%;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+
 }
