@@ -30,8 +30,31 @@ header span {
     gap: 30px;
 }
 
-nav a {
+#nav-bar a {
     text-decoration: none;
     color: black;
     font-size: large;
+}
+
+@media only screen and (max-width: 767px){
+    header {
+        flex-wrap: wrap;
+    }
+
+    #div-title {
+        width: 100%;
+    }
+
+    #nav-bar {
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 0;
+        display: block;
+    }
+
+    #nav-bar a {
+        display: block;
+        padding: 5px 0;
+        text-align: center;
+    }
 }
