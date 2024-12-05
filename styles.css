@@ -45,6 +45,10 @@ header span {
         width: 100%;
     }
 
+    header span {
+        font-size: 40px;
+    }
+
     #nav-bar {
         width: 100%;
         padding-right: 0;
