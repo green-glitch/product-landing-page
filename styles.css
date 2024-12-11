@@ -6,6 +6,7 @@
 
 body{
     font-family: sans-serif;
+    background-color: white;
 }
 
 header {
@@ -14,6 +15,7 @@ header {
     position: fixed;
     display: flex;
     top: 0;
+    left: 0;
 }
 
 #header-img {
@@ -50,7 +52,7 @@ section {
     padding: 0;
     margin: 0;
     height: 100vh;
-    padding-top: 200px;
+    padding-top: 100px;
     text-align: center;
 }
 
@@ -88,5 +90,13 @@ section div h1 {
         display: block;
         padding: 5px 0;
         text-align: center;
+    }
+
+    section {
+        padding-top: max(160px, 30vw);
+    }
+
+    section div h1 {
+        font-size: 40px;
     }
 }
