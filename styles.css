@@ -48,6 +48,10 @@ header span {
     font-size: large;
 }
 
+#nav-bar a:hover{
+    color: #09f;
+}
+
 main {
     margin: 0 auto;
     width: 85%;
@@ -86,6 +90,35 @@ input {
 iframe {
     width: 70%;
     height: 500px;
+}
+
+.button {
+    background-color: white;
+    border: blue 3px solid;
+    border-radius: 5px;
+    width: 100px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #09f;
+}
+
+footer {
+    width: 100vw;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+}
+
+footer a {
+    font-size: 40px;
+    text-decoration:none;
+    color: blue;
 }
 
 @media only screen and (max-width: 767px){

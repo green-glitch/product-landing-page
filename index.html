@@ -1,43 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Defines the document type and specifies the language of the document as English -->
     <meta charset="UTF-8">
+    <!-- Sets the character encoding to UTF-8 for proper text rendering -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ensures the page is responsive and scales properly on all devices -->
     <link rel="stylesheet" href="styles.css">
+    <!-- Links an external stylesheet to style the page -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Links to Font Awesome for icons, providing a secure and anonymous link -->
     <title>Product Landing Page</title>
+    <!-- Specifies the title of the webpage displayed in the browser tab -->
 </head>
 <body>
     <header id="header">
+        <!-- Main header section of the page -->
         <div id="title">
-        <img src="lorem-ipsum-logo.png" alt="Logo" id="header-img">
-        <span>Lorem Ipsum</span>
+            <!-- Container for the logo and title -->
+            <img src="lorem-ipsum-logo.png" alt="Logo" id="header-img">
+            <!-- Displays the company logo -->
+            <span>Lorem Ipsum</span>
+            <!-- Displays the site title -->
         </div>
         <nav id="nav-bar">
-            <a href="#newsletter" class="nav-link">Newsletter</a>
-            <a href="#features" class="nav-link">Features</a>
+            <!-- Navigation bar for page sections -->
             <a href="#video" class="nav-link">Video</a>
+            <!-- Link to the video section -->
+            <a href="#features" class="nav-link">Features</a>
+            <!-- Link to the features section -->
             <a href="#pricing" class="nav-link">Pricing</a>
+            <!-- Link to the pricing section -->
+            <a href="#newsletter" class="nav-link">Newsletter</a>
+            <!-- Link to the newsletter section -->
         </nav>
     </header>
     <main>
-        <section id="newsletter">
-            <h1>Newsletter</h1>
-            <form action="https://www.freecodecamp.com/email-submit" id="form">
-                <input type="email" id="email" name="email" placeholder="Enter your email"><br>
-                <input type="submit" id="submit"/>
-            </form>
+        <!-- Main content of the page -->
+        <section id="video">
+            <!-- Section for embedded video -->
+            <iframe width="866" height="487" src="https://www.youtube.com/embed/cC2CchIoP0Q?autoplay=1&mute=1" title="Lorem Ipsum (Product Landing Page)" allow="autoplay" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            <!-- YouTube video iframe with autoplay enabled -->
         </section>
         <section id="features">
+            <!-- Section showcasing product features -->
             <h1>Features</h1>
             <div class="cards">
+                <!-- Container for feature cards -->
                 <div class="card">
+                    <!-- Individual feature card -->
                     <h2>Feature 1</h2>
                     <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi in posuere massa. Duis elit arcu.</p>
                 </div>
                 <div class="card">
                     <h2>Feature 2</h2>
                     <p>Quisque accumsan nunc et hendrerit feugiat. Vestibulum condimentum ante orci, eget fringilla turpis malesuada sit amet. Nulla ornare bibendum nunc.</p>
-                    
                 </div>
                 <div class="card">
                     <h2>Feature 3</h2>
@@ -49,30 +66,48 @@
                 </div>
             </div>
         </section>
-        <section id="video">
-            <h1>Video</h1>
-            <iframe width="866" height="487" src="https://www.youtube.com/embed/cC2CchIoP0Q" title="Lorem Ipsum (Product Landing Page)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </section>
         <section id="pricing">
+            <!-- Section detailing pricing options -->
             <h1>Pricing</h1>
             <div class="cards">
+                <!-- Container for pricing cards -->
                 <div class="card">
+                    <!-- Individual pricing card -->
                     <h2>Option 1</h2>
                     <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi in posuere massa. Duis elit arcu.</p>
+                    <button class="button">Buy</button>
+                    <!-- Button for purchasing the first option -->
                 </div>
                 <div class="card">
                     <h2>Option 2</h2>
                     <p>Quisque accumsan nunc et hendrerit feugiat. Vestibulum condimentum ante orci, eget fringilla turpis malesuada sit amet. Nulla ornare bibendum nunc.</p>
-                    
+                    <button class="button">Buy</button>
+                    <!-- Button for purchasing the second option -->
                 </div>
                 <div class="card">
                     <h2>Option 3</h2>
                     <p>Quisque non risus nec velit cursus fringilla. Donec tellus purus, tincidunt quis ornare id, mattis quis neque. Mauris erat arcu.</p>
+                    <button class="button">Buy</button>
+                    <!-- Button for purchasing the third option -->
                 </div>
             </div>
         </section>
+        <section id="newsletter">
+            <!-- Section for subscribing to the newsletter -->
+            <h1>Newsletter</h1>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <!-- Form for email submission -->
+                <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+                <!-- Email input field with placeholder text -->
+                <input type="submit" id="submit" class="button" value="Send"/>
+                <!-- Submit button to send the form -->
+            </form>
+        </section>
     </main>
+    <!-- Footer section with a GitHub link -->
     <footer>
+        <!-- Link to my repo -->
+        <a href="https://github.com/green-glitch/product-landing-page"><i class="fa-brands fa-github"></i></a>
     </footer>
 </body>
 </html>
