@@ -1,0 +1,163 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+}
+
+body{
+    font-family: sans-serif;
+    background-color: white;
+}
+
+header {
+    width: 100vw;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+}
+
+#header-img {
+    width: min(10vw, 100px);
+}
+
+header div#title {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+header span {
+    font-size: 50px;
+}
+
+#nav-bar {
+    padding-right: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 30%;
+    gap: 30px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+#nav-bar a:hover{
+    color: #09f;
+}
+
+main {
+    margin: 0 auto;
+    width: 85%;
+}
+
+section {
+    padding: 0;
+    margin: 0;
+    padding-top: 100px;
+    text-align: center;
+    min-height: 400px;
+}
+
+p {
+    font-size: 20px;
+}
+
+section h1 {
+    font-size: 60px;
+}
+
+input {
+    font-size: large;
+}
+
+#email {
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.cards {
+    display: flex;
+    margin: 0 auto;
+}
+
+iframe {
+    width: 70%;
+    height: 500px;
+}
+
+.button {
+    background-color: white;
+    border: black 3px solid;
+    border-radius: 5px;
+    width: 100px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #bbb;
+}
+
+footer {
+    width: 100vw;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+}
+
+footer a {
+    font-size: 40px;
+    text-decoration:none;
+    color: blue;
+}
+
+@media only screen and (max-width: 767px){
+    header {
+        display: block;
+        width: 100%;
+    }
+
+    header div#title {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #header-img {
+        width: min(10vw, 100px);
+    }
+
+    header span {
+        font-size: 40px;
+    }
+
+    #nav-bar {
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 0;
+        display: block;
+    }
+
+    #nav-bar a {
+        display: block;
+        padding: 5px 0;
+        text-align: center;
+    }
+
+    section {
+        padding-top: 30vh;
+    }
+
+    section div h1 {
+        font-size: 8vh;
+    }
+}
