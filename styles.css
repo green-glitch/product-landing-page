@@ -94,14 +94,14 @@ iframe {
 
 .button {
     background-color: white;
-    border: blue 3px solid;
+    border: black 3px solid;
     border-radius: 5px;
     width: 100px;
     font-weight: bold;
 }
 
 .button:hover {
-    background-color: #09f;
+    background-color: #bbb;
 }
 
 footer {
