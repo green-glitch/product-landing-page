@@ -44,4 +44,4 @@ To view or customize the tech documentation page:
    ```bash
    git clone https://github.com/green-glitch/tech-doc-page.git
 2. Open **`index.html`** in your browser to view the page. 
-3. Alternatively, visit [green-glitch.github.io/product-landing-page](https://green-glitch.github.io/product-landing-page) to access the tech-doc-page online.
+3. Alternatively, visit [green-glitch.github.io/product-landing-page](https://green-glitch.github.io/product-landing-page) to access the product-landing-page online.
