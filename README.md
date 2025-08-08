@@ -1,47 +1,50 @@
 # Product Landing Page
 
-## Overview
+## Description
 
-This **Product Landing Page** is a responsive web project that serves as a sleek, modern landing page for showcasing a product or service. It is built using **HTML5**, **CSS**, and incorporates **Font Awesome** for icons.
+Product Landing Page is a responsive web application designed to present a product or service in an attractive and structured way.
+It contains sections for a promotional video, product features, pricing options, and a newsletter signup form.
+The design is clean, mobile-friendly, and easy to navigate.
 
-The page features a clean layout with an intuitive navigation bar and sections for video, features, pricing, and a newsletter subscription.
+## Installation
 
----
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/green-glitch/product-landing-page.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd product-landing-page
+   ```
+
+3. Open the `index.html` file in your browser.
+
+> No dependencies or additional libraries are required.
+
+## Usage
+
+1. Open the page in your browser.
+2. Use the navigation bar at the top to move between sections: Video, Features, Pricing, and Newsletter.
+3. Watch the embedded promotional video in the Video section.
+4. Explore the product's main features in the Features section.
+5. View pricing options in the Pricing section.
 
 ## Features
 
-### Responsive Design
-- Fully responsive layout ensuring optimal viewing on various devices (desktops, tablets, and mobile phones).
-- Utilizes `<meta name="viewport" content="width=device-width, initial-scale=1.0">` for proper scaling.
+- Fixed navigation bar for quick access to sections.
+- Embedded YouTube video showcasing the product.
+- Feature cards highlighting the product’s main selling points.
+- Pricing section with multiple purchase options.
+- Newsletter signup form with email validation.
+- Responsive design optimized for both desktop and mobile devices.
+- Smooth scrolling for better user experience.
 
-### Key Sections
-1. **Navigation Bar**:
-   - Quick access to all sections of the page (Video, Features, Pricing, Newsletter).
+## Technology
 
-2. **Video Section**:
-   - Embedded YouTube video that autoplays and demonstrates the product.
+This project was built using:
 
-3. **Features Section**:
-   - Highlights product benefits in an elegant card layout.
-
-4. **Pricing Section**:
-   - Details pricing options with individual call-to-action buttons for each.
-
-5. **Newsletter Section**:
-   - Easy subscription form for email updates.
-
-### External Resources
-- **Font Awesome** icons via CDN for enriched UI.
-- Link to external stylesheet for modular styling.
-
-### Footer
-- GitHub repository link for further exploration or contributions.
-
-## Installation and Usage
-To view or customize the tech documentation page:
-
-1. **Clone the Repository**: 
-   ```bash
-   git clone https://github.com/green-glitch/tech-doc-page.git
-2. Open **`index.html`** in your browser to view the page. 
-3. Alternatively, visit [green-glitch.github.io/product-landing-page](https://green-glitch.github.io/product-landing-page) to access the product-landing-page online.
+- **HTML5** – structure of the page.
+- **CSS** – styling and layout.
